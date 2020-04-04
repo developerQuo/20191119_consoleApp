@@ -1,5 +1,5 @@
 # 20191119_consoleApp
-비트캠프 첫번째 개인프로젝트: 홈카페 만들기
+##비트캠프 첫번째 개인프로젝트: 홈카페 만들기
 
 * 요구사항   
 	: Bitcamp.java142기 홈카페 만들기. (회원등록 25명)
@@ -19,17 +19,17 @@
 
 * 회원등록에 필요한 데이터
 <pre>
-순번 : 회원번호 : MYYYYMMDD0001		kmem		(primary key)
-아이디 : 영어 + 숫자			kid		(not null)
-비번 : 영어 + 숫자 + 특수문자		kpw		(not null)
-이름 : 한글 + 영어				kname
-이메일 : 영어 + 숫자			kemail		(not null)
-핸드폰번호 : 숫자 (00000000000)		khp
-생년월일	: YYYYMMDD			kbirth
-도로명 우편번호				kpostno
-도로명 주소				kjuso
-삭제여부	: (Y/N)				kdeleteYN
-가입일 : YYYYMMDD			kinsertdate
+순번 : 회원번호 : MYYYYMMDD0001		kmem		(primary key)   
+아이디 : 영어 + 숫자			kid		(not null)   
+비번 : 영어 + 숫자 + 특수문자		kpw		(not null)   
+이름 : 한글 + 영어			kname   
+이메일 : 영어 + 숫자			kemail		(not null)   
+핸드폰번호 : 숫자 (00000000000)		khp   
+생년월일	: YYYYMMDD		kbirth   
+도로명 우편번호				kpostno   
+도로명 주소				kjuso   
+삭제여부	: (Y/N)			kdeleteYN   
+가입일 : YYYYMMDD			kinsertdate   
 수정일 : YYYYMMDD			kupdatedate
 </pre>
 * 테이블 이름 : 본인이니셜 + _MEMBER		KCM_MEMBER
@@ -46,11 +46,10 @@ main class : bitcamp.java142.ch5.kcmjf.KcmMemberScr
 	boolean updateKcmMember
 	boolean deleteKcmMember
 	List<KcmMemberVO> displayFunc
-VO   class : bitcamp.java142.ch5.kcmjf.vo.KcmMemberVO
+VO class : bitcamp.java142.ch5.kcmjf.vo.KcmMemberVO
 	Constructor - 데이터 생성할 때 VO의 setter 함수 이용하는 것으로. -> 기본 생성자만
 	setter/getter
-DAO class : bitcamp.java142.ch5.kcmjf.dao.KcmMemberDAO
-	 : bitcamp.java142.ch5.kcmjf.dao.KcmMemberDAOImpl
+DAO class : bitcamp.java142.ch5.kcmjf.dao.KcmMemberDAO & bitcamp.java142.ch5.kcmjf.dao.KcmMemberDAOImpl
 	List<KcmMemberVO> selectKcmMember
 	List<KcmMemberVO> searchKcmMember
 	List<KcmMemberVO> likeSearchKcmMember
@@ -58,7 +57,7 @@ DAO class : bitcamp.java142.ch5.kcmjf.dao.KcmMemberDAO
 	boolean updateKcmMember
 	boolean deleteKcmMember 
 	KcmMemberVO setterKmvo
-SQL  class : bitcamp.java142.ch5.kcmjf.sql.KcmSqlQueryMap
+SQL class : bitcamp.java142.ch5.kcmjf.sql.KcmSqlQueryMap
 	String getSelectQuery
 	String getSearchQuery
 	String getLikeSearchQuery
@@ -74,5 +73,5 @@ Connection : bitcamp.java142.ch5.kcmjf.common.KcmConnProperty
 * 제출 시간 : 2019-11-19(화요일) 오후 5:50
 * 제출 폴더 : C:\80.자바142기\90.Exam_Project\20191118_console_dao_work\본인이름
 
-데이터 입력 : Scanner 클래스이용
-데이터 구분자: Scanner 클래스 이용리드타임   
+### ** 데이터 입력 : Scanner 클래스이용
+### ** 데이터 구분자: Scanner 클래스 이용리드타임   
