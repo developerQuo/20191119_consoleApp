@@ -1,5 +1,5 @@
 # 20191119_consoleApp
-##비트캠프 첫번째 개인프로젝트: 홈카페 만들기
+## 비트캠프 첫번째 개인프로젝트: 홈카페 만들기
 
 * 요구사항   
 	: Bitcamp.java142기 홈카페 만들기. (회원등록 25명)
@@ -19,18 +19,18 @@
 
 * 회원등록에 필요한 데이터
 <pre>
-순번 :    회원번호-MYYYYMMDD0001	kmem		(primary key)   
-아이디 :    영어 + 숫자		kid		(not null)   
-비번 :    영어 + 숫자 + 특수문자	kpw		(not null)   
-이름 :    한글 + 영어		kname   
-이메일 :    영어 + 숫자		kemail		(not null)   
-핸드폰번호 :    숫자 (00000000000)	khp   
-생년월일	:    YYYYMMDD		kbirth   
-도로명 우편번호			kpostno   
-도로명 주소			kjuso   
-삭제여부	:    (Y/N)			kdeleteYN   
-가입일 :    YYYYMMDD		kinsertdate   
-수정일 :    YYYYMMDD		kupdatedate
+순번 : 회원번호-MYYYYMMDD0001	kmem		(primary key)   
+아이디 : 영어 + 숫자			kid		(not null)   
+비번 : 영어 + 숫자 + 특수문자		kpw		(not null)   
+이름 : 한글 + 영어			kname   
+이메일 : 영어 + 숫자			kemail		(not null)   
+핸드폰번호 : 숫자 (00000000000)	khp   
+생년월일	: YYYYMMDD		kbirth   
+도로명 우편번호				kpostno   
+도로명 주소				kjuso   
+삭제여부	: (Y/N)			kdeleteYN   
+가입일 : YYYYMMDD			kinsertdate   
+수정일 : YYYYMMDD			kupdatedate
 </pre>
 * 테이블 이름 : 본인이니셜 + _MEMBER		KCM_MEMBER
 
