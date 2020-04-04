@@ -1,40 +1,40 @@
 # __20191119_consoleApp__
 ## 비트캠프 첫번째 개인프로젝트: 홈카페 만들기
 
-* 요구사항   
+* __요구사항__   
 	: Bitcamp.java142기 홈카페 만들기. (회원등록 25명)
 
-* 리드타임   
+* __리드타임__   
 	: 2019-11-18(월) ~ 2019-11-19(화)   
 	  하루 9시간(점심시간 1시간) = 8시간   
 	  16시간 - 2시간 = 14시간
 
-* 요건 정의   
+* __요건 정의__   
 	: 자바 콘솔 어플리케이션   
 	  순번, 아이디, 비번, 이름, 이메일, 핸드폰번호, 생년월일,   
 	  도로명 우편번호, 도로명 주소, 삭제여부, 가입일, 수정일
 
-* 패키지명 : bitcamp.java142.ch5.kcmjf
-* 컬럼명 : 본인 첫번째 이니셜 + 컬럼명
+* __패키지명__ : bitcamp.java142.ch5.kcmjf
+* __컬럼명__ : 본인 첫번째 이니셜 + 컬럼명
 
-* 회원등록에 필요한 데이터
+* __회원등록에 필요한 데이터__
 <pre>
-순번    : 회원번호-MYYYYMMDD0001	kmem		(primary key)   
-아이디    : 영어 + 숫자			kid		(not null)   
-비번    : 영어 + 숫자 + 특수문자		kpw		(not null)   
-이름    : 한글 + 영어			kname   
-이메일    : 영어 + 숫자			kemail		(not null)   
-핸드폰번호    : 숫자 (00000000000)	khp   
+순번	: 회원번호-MYYYYMMDD0001	kmem		(primary key)   
+아이디	: 영어 + 숫자			kid		(not null)   
+비번	: 영어 + 숫자 + 특수문자		kpw		(not null)   
+이름	: 한글 + 영어			kname   
+이메일	: 영어 + 숫자			kemail		(not null)   
+핸드폰번호	: 숫자 (00000000000)	khp   
 생년월일	: YYYYMMDD		kbirth   
 도로명 우편번호				kpostno   
 도로명 주소				kjuso   
 삭제여부	: (Y/N)			kdeleteYN   
-가입일       : YYYYMMDD		kinsertdate   
-수정일       : YYYYMMDD		kupdatedate
+가입일	: YYYYMMDD		kinsertdate   
+수정일	: YYYYMMDD		kupdatedate
 </pre>
-* 테이블 이름 : 본인이니셜 + _MEMBER		KCM_MEMBER
+* __테이블 이름__ : 본인이니셜 + _MEMBER		KCM_MEMBER
 
-* 패키지, 클래스 정의
+* __패키지, 클래스 정의__
 <pre>
 main class : bitcamp.java142.ch5.kcmjf.KcmMemberScr
 	void funcSelector
@@ -70,8 +70,8 @@ Connection : bitcamp.java142.ch5.kcmjf.common.KcmConnProperty
 	Connection getConnection
 	void connClose
 </pre>
-* 제출 시간 : 2019-11-19(화요일) 오후 5:50
-* 제출 폴더 : C:\80.자바142기\90.Exam_Project\20191118_console_dao_work\본인이름
+* __제출 시간__ : 2019-11-19(화요일) 오후 5:50
+* __제출 폴더__ : C:\80.자바142기\90.Exam_Project\20191118_console_dao_work\본인이름
 
 ### ** 데이터 입력 : Scanner 클래스이용
 ### ** 데이터 구분자: Scanner 클래스 이용리드타임   
