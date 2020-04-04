@@ -5,13 +5,13 @@
 	: Bitcamp.java142기 홈카페 만들기. (회원등록 25명)
 
 * 리드타임   
-	: 2019-11-18(월) ~ 2019-11-19(화)
-	  하루 9시간(점심시간 1시간) = 8시간
+	: 2019-11-18(월) ~ 2019-11-19(화)   
+	  하루 9시간(점심시간 1시간) = 8시간   
 	  16시간 - 2시간 = 14시간
 
 * 요건 정의   
-	: 자바 콘솔 어플리케이션
-	  순번, 아이디, 비번, 이름, 이메일, 핸드폰번호, 생년월일, 
+	: 자바 콘솔 어플리케이션   
+	  순번, 아이디, 비번, 이름, 이메일, 핸드폰번호, 생년월일,   
 	  도로명 우편번호, 도로명 주소, 삭제여부, 가입일, 수정일
 
 * 패키지명 : bitcamp.java142.ch5.kcmjf
@@ -19,18 +19,18 @@
 
 * 회원등록에 필요한 데이터
 <pre>
-순번 : 회원번호-MYYYYMMDD0001	kmem		(primary key)   
-아이디 : 영어 + 숫자			kid		(not null)   
-비번 : 영어 + 숫자 + 특수문자		kpw		(not null)   
-이름 : 한글 + 영어			kname   
-이메일 : 영어 + 숫자			kemail		(not null)   
-핸드폰번호 : 숫자 (00000000000)	khp   
+순번    : 회원번호-MYYYYMMDD0001	kmem		(primary key)   
+아이디    : 영어 + 숫자		kid		(not null)   
+비번    : 영어 + 숫자 + 특수문자	kpw		(not null)   
+이름    : 한글 + 영어		kname   
+이메일    : 영어 + 숫자		kemail		(not null)   
+핸드폰번호 : 숫자 (00000000000)		khp   
 생년월일	: YYYYMMDD		kbirth   
 도로명 우편번호				kpostno   
 도로명 주소				kjuso   
 삭제여부	: (Y/N)			kdeleteYN   
-가입일 : YYYYMMDD			kinsertdate   
-수정일 : YYYYMMDD			kupdatedate
+가입일    : YYYYMMDD		kinsertdate   
+수정일    : YYYYMMDD		kupdatedate
 </pre>
 * 테이블 이름 : 본인이니셜 + _MEMBER		KCM_MEMBER
 
