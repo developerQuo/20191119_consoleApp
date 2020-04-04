@@ -19,7 +19,7 @@
 
 * __회원등록에 필요한 데이터__
 <pre>
-순번		: 회원번호-MYYYYMMDD0001	kmem		(primary key)   
+순번		: 회원번호 (MYYYYMMDD0001)	kmem		(primary key)   
 아이디		: 영어 + 숫자			kid		(not null)   
 비번		: 영어 + 숫자 + 특수문자		kpw		(not null)   
 이름		: 한글 + 영어			kname   
